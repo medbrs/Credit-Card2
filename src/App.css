@@ -1,22 +1,42 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.credit-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  width: 434px;
+  height: 250px;
+  padding: 25px;
+  border-radius: 15px;
   color: white;
+  background-image: linear-gradient(25deg, #0f509e, #1399cd);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin: 2%;
 }
 
-.App-link {
-  color: #09d3ac;
+.credit-card__number {
+ 
+  font-size: 45px;
+}
+
+.credit-card__info {
+  display: flex;
+  justify-content: space-between;
+
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 25px;
+}
+
+.credit-card__info_label {
+  font-size: 14px;
+}
+
+.credit-card__info_expiry {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+input{
+  margin: 10px;
+  width: 21%;
+  height: 21px;
 }
